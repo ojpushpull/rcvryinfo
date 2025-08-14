@@ -21,10 +21,13 @@ export default function RootLayout({
         {/* Navigation */}
         <nav className="bg-blue-900 text-white shadow-lg">
           <div className="max-w-6xl mx-auto px-4">
-            <div className="space-x-6">
-              <a href="/" className="hover:text-blue-200">Home</a>
-              <a href="/about" className="hover:text-blue">About</a>
-              <a href="/resources" className="hover:text-blue">Resources</a>
+            <div className="flex justify-between items-center py-4">
+             <h1 className="text-cl font-bold">Recovery resources</h1>
+             <div className="space-x-6">
+               <a href="/" className="hover:text-blue-200">Home</a>
+               <a href="/about" className="hover:text-blue">About</a>
+               <a href="/resources" className="hover:text-blue">Resources</a>
+             </div>
             </div>
           </div>
         </nav>
