@@ -1,3 +1,4 @@
+import type { NextConfig } from 'next';
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { useState } from 'react'
@@ -5,6 +6,7 @@ import { useState } from 'react'
 interface NavItem {
     href: string;
     label: string;
+    
 }
 
 interface NavigationProps {
@@ -23,6 +25,8 @@ const handleMenuToggle = (): void => {
     setIsOpen(!isOpen);
 };
 
+const 
 const handleLinkClick = (event: React.MouseEvent<HTMLAnchorElement>): void => {
- //handle click logic
+    se
+      
 };
