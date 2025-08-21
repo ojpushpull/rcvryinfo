@@ -9,6 +9,13 @@ const Counter: React.FunctionComponent = () => {
             <Head>
                 <title>Counter</title>
             </Head>
+            <h1 style={{ color: 'green' }}></h1>
+            <button onClick=
+                {() => setCount(count+1)}>
+                    Increment
+                </button>
         </div>
     )
 }
+
+export default Counter;
