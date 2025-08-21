@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Head from 'next/head'
 
 const Counter: React.FunctionComponent = () => {
-    const [count, setCount] useState(0)
+    const [count, setCount] = useState(0)
 
     return (
         <div>

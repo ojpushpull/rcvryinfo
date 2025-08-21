@@ -25,8 +25,8 @@ const handleMenuToggle = (): void => {
     setIsOpen(!isOpen);
 };
 
-const 
+
 const handleLinkClick = (event: React.MouseEvent<HTMLAnchorElement>): void => {
-    se
+    
       
 };
